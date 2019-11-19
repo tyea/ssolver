@@ -13,8 +13,7 @@ It's quite fast for puzzles that can be solved with logic, but quite slow for pu
 
 ## Installation
 
-* Clone this repository
-* Run `composer install`
+* `composer install`
 
 ## Usage
 
@@ -62,4 +61,4 @@ There are some basic integration tests in the `tests` directory. Run `vendor/bin
 
 ## Author
 
-Written by Tom Yeadon.
+Written by Tom Yeadon in February 2019.
