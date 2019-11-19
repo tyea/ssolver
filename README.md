@@ -1,8 +1,10 @@
-# Sudoku Solver
+# SSolver
 
 ## About
 
-A command line Sudoku solver written in PHP. It's quite fast for puzzles that are solvable with logic, but quite slow for puzzles that need to be bruteforced!
+SSolver is a command line Sudoku solver written in PHP.
+
+It's quite fast for puzzles that can be solved with logic, but quite slow for puzzles that need to be bruteforced!
 
 ## Requirements
 
