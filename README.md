@@ -57,7 +57,7 @@ Which should produce:
 
 ## Tests
 
-There are some basic integration tests in the `tests` directory. Run `vendor/bin/phpunit --do-not-cache-result --bootstrap vendor/autoload.php tests` to execute them.
+There are some basic integration tests in the `tests` directory. Run `php vendor/bin/phpunit --bootstrap vendor/autoload.php tests` to execute them. You may need to run `composer install --dev` first.
 
 ## Author
 
