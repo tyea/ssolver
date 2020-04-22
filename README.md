@@ -17,7 +17,7 @@ It's quite fast for puzzles that can be solved with logic, but quite slow for pu
 
 ## Usage
 
-The `ssolver.php` file is the entry point. It takes one argument, which is the unsolved Sudoku.
+The `ssolver` file is the entry point. It takes one argument, which is the unsolved Sudoku.
 
 The unsolved Sudoku should be collapsed onto one line. Each character represents a cell, which means the argument should be 81 characters long. Use question marks to represent empty cells.
 	
