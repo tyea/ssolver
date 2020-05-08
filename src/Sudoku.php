@@ -6,7 +6,7 @@ class Sudoku
 	public $rows = [];
 	public $columns = [];
 	public $cells = [];
-	
+
 	public function isComplete(): bool
 	{
 		foreach ($this->cells as $cell) {
@@ -16,7 +16,7 @@ class Sudoku
 		}
 		return true;
 	}
-	
+
 	public function isSolved(): bool
 	{
 		foreach ($this->boxes as $box) {
@@ -54,7 +54,7 @@ class Sudoku
 		}
 		return true;
 	}
-	
+
 	public function concatenateCells(): string
 	{
 		$cells = "";

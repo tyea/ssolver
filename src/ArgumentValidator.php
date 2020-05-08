@@ -1,7 +1,7 @@
 <?php
 
 class ArgumentValidator
-{	
+{
 	public function validate(int $argc, array $argv): void
 	{
 		if ($argc == 1) {

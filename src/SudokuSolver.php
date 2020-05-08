@@ -31,8 +31,8 @@ class SudokuSolver
 				}
 				$possibleValues = array_values(
 					array_intersect(
-						array_values($possibleBoxValues), 
-						array_values($possibleRowValues), 
+						array_values($possibleBoxValues),
+						array_values($possibleRowValues),
 						array_values($possibleColumnValues)
 					)
 				);
@@ -91,12 +91,12 @@ class SudokuSolver
 					$pointers[$cellIndex] += 1;
 					break;
 				}
-				
+
 			}
 		}
 		foreach ($sudoku->cells as $cell) {
 			if (count($cell->possibleValues) != 0) {
-				if ($isSolved) { 
+				if ($isSolved) {
 					$cell->possibleValues = [];
 				} else {
 					$cell->value = null;
